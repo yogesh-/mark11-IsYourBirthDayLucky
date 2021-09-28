@@ -1,0 +1,13 @@
+.footer-container {
+    text-align: center;
+    /* padding: 1px; */
+    height: 2px;
+    background-color:gray;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    
+    
+    
+}
