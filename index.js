@@ -27,10 +27,10 @@ function calculateSum(DOB){
 
 function getMessage(sum,numb){
     console.log(sum,numb);
-    // if(numb ==="" || DOB ===""){
-    //     display.innerText="ERROR!! Enter all the details to proceed.";
-    // }
-    if(sum%numb===0){
+    if(numb ===""){
+        display.innerText="ERROR!! Enter all the details to proceed.";
+    }
+    else if(sum%numb===0){
         display.innerText="You are a lucky chap";
     }
     
